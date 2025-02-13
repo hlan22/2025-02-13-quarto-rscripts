@@ -1,0 +1,56 @@
+---
+title: "My (not) First Quarto"
+author: "Heidi"
+format: html
+editor: visual
+---
+
+## Quarto Documents Intro
+
+* Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+* Quarto sets up the metadata at the start with 3 dashes at the top of the file. If you move it after/later in the document, it will not understand.
+
+* The notation at the start is yaml, keys and values, just like github actions files
+
+* markdown is a short cut version of html, but you can always write pure html in a document too
+
+If you want the proper coloring to show up for code, but not actually run it, you can do:
+
+```r
+myfunc <- function(blah) {
+   blah + 1
+}
+```
+
+But it doesn't define it!
+
+```{r}
+myfunc <- function(blah) {
+   blah + 1
+}
+
+myfunc(3)
+```
+
+```{r}
+#| echo: false
+#| include: false
+#| 
+```
+
+These execution options are yaml key/value combinations, that is why it is false instead of FALSE (not r code, it is yaml).
+
+* The reason we say echo - whatever you tell me, i'll spit back to you
+
+* what about word wrapping? it is still considered line 9
+
+You can turn off soft wrap long lines, but I don't like that option.
+
+If you think about it from a git perspective, you have to find the change in the giant 5-line sentence.
+That is why you can split up sentences, but as long as there is no space inbetween the sentences, they are rendered as one.
+
+* Semantic line breaks; strategically breaking lines so that it is easier for version control
+
+
+
