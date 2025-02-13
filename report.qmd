@@ -53,4 +53,4 @@ That is why you can split up sentences, but as long as there is no space inbetwe
 * Semantic line breaks; strategically breaking lines so that it is easier for version control
 
 
-
+ctrl shift p is find a command
