@@ -1,0 +1,47 @@
+    1  refresh
+    2  ls
+    3  cd./
+    4  cd .
+    5  ls
+    6  cd ..
+    7  ls
+    8  R
+    9  cd Documents/
+   10  pwd
+   11  cd Documents/GitHub
+   12  cd Documents/02_microshunt
+   13  git pull
+   14  git status
+   15  git add docs/02-microshunt-first-report.qmd
+   16  git commit -m "First edits of first draft report"
+   17  git pull
+   18  git push origin main
+   19  cd ..
+   20  git clone https://github.com/hlan22/dsci310.git
+   21  cd dsci310
+   22  git pull
+   23  git status
+   24  git add .
+   25  git commit -m "first day of studying"
+   26  git push origin main
+   27  cd ..
+   28  git clone https://github.com/hlan22/2025-02-13-quarto-rscripts.git
+   29  cd 2025-02-13-quarto-rscripts
+   30  git status
+   31  git add .gitignore
+   32  git commit -m "remove 'visual noise' from quarto documents"
+   33  git add 2025-02-13-quarto-rscripts.Rproj
+   34  git commit -m "create r project"
+   35  git add .
+   36  git commit -m "learn about quarto"
+   37  git push origin main
+   38  code report.qmd
+   39  code vscode.qmd
+   40  Rstudio test.qmd
+   41  RStudio test.qmd
+   42  ls
+   43  quarto render report.qmd
+   44  install.packages("rmarkdown")
+   45  install.packages(rmarkdown)
+   46  git status
+   47  history > history.txt
